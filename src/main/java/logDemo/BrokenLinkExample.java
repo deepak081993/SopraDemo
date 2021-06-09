@@ -55,9 +55,7 @@ public class BrokenLinkExample {
 		}
 	}
 
-	/**
-	 * 200-OK, 404- Not Found, 500- internal Error, 400- bad Request
-	 */
+	
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
